@@ -1,0 +1,146 @@
+.sidebar {
+    height: 100%;
+    width: 240px;
+    background-color: #1A2226;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 6px 14px;
+  }
+  .sidebar .logo_content .logo {
+    color: #fff;
+    margin: 20px;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .logo_content .logo i {
+    font-size: 60px;
+    margin-right: 5px;
+  }
+  
+  .logo_content .logo .logo_name {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  
+  .sidebar #btn {
+    position: absolute;
+    color: #fff;
+    left: 90%;
+    top: 6px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
+  }
+  
+  .sidebar ul {
+    margin-top: 20px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  .sidebar ul li {
+    list-style: none;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0 5px;
+    line-height: 50px;
+  }
+  
+  .sidebar ul li input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #222D32;
+    padding-left: 50px;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .sidebar ul li .bx-search {
+    position: absolute;
+    z-index: 99;
+    color: #fff;
+    font-size: 22px;
+    margin-left: 40px;
+  }
+  
+  .sidebar ul li a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 5px;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #11101d;
+    background-color: #fff;
+  }
+  
+  .sidebar ul li i {
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+  }
+  
+  .sidebar .profile_content {
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .sidebar .profile_content .profile {
+    position: relative;
+    padding: 10px 6px;
+    height: 68px;
+    background-color: #101518;
+  }
+  
+  .sidebar .profile_content .profile .profile_deatils {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile .profile_deatils .name_job {
+      margin-left: 10px;
+  }
+  
+  .profile .profile_deatils .name_job .name{
+      font-size: 20px;
+      font-weight: 400;
+  }
+  
+  .profile .profile_deatils .name_job .job{
+      font-size: 12px;
+      font-weight: 400;
+  }
+  
+  .profile #log_out{
+    color: white;
+      position: absolute;
+      left: 88%;
+      bottom: 5px;
+      transform: translateX(-50%);
+      min-width: 50px;
+      line-height: 50px;
+      font-size: 20px;
+      border-radius: 12px;
+  }

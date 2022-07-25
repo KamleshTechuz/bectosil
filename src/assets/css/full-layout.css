@@ -1,0 +1,29 @@
+.home_content {
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 240px);
+  left: 240px;
+}
+.card {
+  background-color: #1a2226;
+}
+
+.avatar {
+  white-space: nowrap;
+  background-color: #222D32;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 0.75rem;
+  text-align: center;
+  vertical-align: middle;
+}
+.avatar-content {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+}
